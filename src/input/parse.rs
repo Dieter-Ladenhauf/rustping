@@ -8,7 +8,7 @@ use std::fs::File;
 use std::io;
 use std::path::Path;
 use self::url::{Url, ParseError};
-use input::query::Query;
+use input::Query;
 
 #[derive(Debug)]
 pub enum InputError {

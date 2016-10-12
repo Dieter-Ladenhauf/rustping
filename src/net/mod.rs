@@ -5,7 +5,7 @@ mod result;
 
 extern crate time;
 
-use input::query::Query;
+use input::Query;
 use output::Output;
 use hyper::client::Client;
 use std::sync::{Arc, Barrier, Mutex, Condvar};

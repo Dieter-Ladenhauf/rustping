@@ -2,7 +2,7 @@
 extern crate time;
 
 use std::io;
-use input::query::Query;
+use input::Query;
 use output::Output;
 use hyper::client::Client;
 use std::thread::{Builder, JoinHandle};
