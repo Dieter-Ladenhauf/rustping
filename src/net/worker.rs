@@ -4,14 +4,10 @@ extern crate time;
 use std::io;
 use input::query::Query;
 use output::Output;
-use hyper::client::response::Response;
 use hyper::client::Client;
 use std::thread::{Builder, JoinHandle};
 use std::sync::{Arc, Barrier, Mutex, Condvar};
-use hyper::status::StatusCode;
 use self::time::PreciseTime;
-use self::time::Duration;
-use net::status::Finished;
 use output::Result;
 use net::result::ResultContainer;
 

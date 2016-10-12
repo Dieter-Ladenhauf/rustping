@@ -9,7 +9,7 @@ extern crate getopts;
 use getopts::Options;
 use std::env;
 use input::parse;
-use net::net::Builder;
+use net::Builder;
 use output::elasticsearch::Elastic;
 
 const DEFAULT_NUM_TIMES: u32 = 5;
