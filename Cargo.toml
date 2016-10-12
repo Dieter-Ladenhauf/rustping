@@ -1,0 +1,12 @@
+[package]
+name = "rustping"
+version = "0.1.0"
+authors = ["Dieter Ladenhauf <dieter.ladenhauf@gmail.com>"]
+
+[dependencies]
+hyper = "0.9"
+getopts = "0.*"
+time = "*"
+
+[dependencies.url]
+git = "https://github.com/servo/rust-url"
